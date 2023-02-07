@@ -1,0 +1,150 @@
+---
+permalink: api/reference_element_api_clusterconfig.html 
+sidebar: sidebar 
+keywords: objects,object,clusterConfig 
+summary: El objeto ClusterConfig muestra información que el nodo utiliza para comunicarse con el clúster. 
+---
+= ClusterConfig
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+El objeto ClusterConfig muestra información que el nodo utiliza para comunicarse con el clúster.
+
+
+
+== Miembros de objeto
+
+Este objeto contiene los siguientes miembros:
+
+|===
+| Nombre | Descripción | Tipo 
+
+
+ a| 
+cipi
+ a| 
+La interfaz de red que se utiliza para la comunicación del clúster.
+ a| 
+cadena
+
+
+
+ a| 
+clúster
+ a| 
+El nombre único del clúster.
+ a| 
+cadena
+
+
+
+ a| 
+Cifrado Capable
+ a| 
+Especifica si el nodo admite cifrado.
+ a| 
+booleano
+
+
+
+ a| 
+conjunto
+ a| 
+Los nodos que participan en el clúster.
+ a| 
+matriz de cadenas
+
+
+
+ a| 
+Configuración de fipsDriveConfiguration
+ a| 
+Especifica si el nodo es compatible con unidades certificadas con FIPS 140-2.
+ a| 
+booleano
+
+
+
+ a| 
+HasLocalAdmin
+ a| 
+Especifica si el clúster tiene un administrador local.
+ a| 
+booleano
+
+
+
+ a| 
+mipi
+ a| 
+La interfaz de red utilizada para la gestión de nodos.
+ a| 
+cadena
+
+
+
+ a| 
+nombre
+ a| 
+Identificador único del clúster.
+ a| 
+cadena
+
+
+
+ a| 
+NodeID
+ a| 
+Identificador único del nodo.
+ a| 
+entero
+
+
+
+ a| 
+PendingNodeID
+ a| 
+Identificador único del nodo pendiente.
+ a| 
+entero
+
+
+
+ a| 
+función
+ a| 
+Identifica el rol del nodo.
+ a| 
+cadena
+
+
+
+ a| 
+sipi
+ a| 
+La interfaz de red que se utiliza para el almacenamiento.
+ a| 
+cadena
+
+
+
+ a| 
+estado
+ a| 
+Indica el estado del nodo.
+ a| 
+cadena
+
+
+
+ a| 
+versión
+ a| 
+Indica la versión del nodo.
+ a| 
+cadena
+
+|===

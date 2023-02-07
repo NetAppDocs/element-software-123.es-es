@@ -1,0 +1,155 @@
+---
+permalink: api/reference_element_api_bulkvolumejob.html 
+sidebar: sidebar 
+keywords: bulkVolumeJob,object,objects,read,write,clones,snapshots,clone,snapshot 
+summary: El objeto bulkVolumeJob contiene información sobre operaciones masivas de lectura o escritura de volúmenes, como la clonación o la creación de copias Snapshot. 
+---
+= BulkVolumeJob
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+El objeto bulkVolumeJob contiene información sobre operaciones masivas de lectura o escritura de volúmenes, como la clonación o la creación de copias Snapshot.
+
+
+
+== Miembros de objeto
+
+Este objeto contiene los siguientes miembros:
+
+|===
+| Nombre | Descripción | Tipo 
+
+
+ a| 
+atributos
+ a| 
+Atributo JSON del trabajo de volumen masivo.
+ a| 
+Objeto JSON
+
+
+
+ a| 
+ID de volumen
+ a| 
+El ID de trabajo del volumen masivo interno.
+ a| 
+entero
+
+
+
+ a| 
+CreateTime
+ a| 
+La Marca de hora se creó para el trabajo de volumen masivo en formato UTC+0.
+ a| 
+Cadena de fecha ISO 8601
+
+
+
+ a| 
+Elatiempo
+ a| 
+El número de segundos desde que se inició el trabajo.
+ a| 
+cadena
+
+
+
+ a| 
+formato
+ a| 
+El formato de la operación de volumen masivo. Los posibles valores son los siguientes:
+
+* comprimido
+* nativo
+
+ a| 
+cadena
+
+
+
+ a| 
+clave
+ a| 
+La clave única que crea la sesión de volumen masivo.
+ a| 
+cadena
+
+
+
+ a| 
+Porcentaje completado
+ a| 
+Porcentaje completado informado por la operación.
+ a| 
+entero
+
+
+
+ a| 
+RemasterHora
+ a| 
+El tiempo estimado que queda en segundos.
+ a| 
+entero
+
+
+
+ a| 
+SrcVolumeID
+ a| 
+El ID del volumen de origen.
+ a| 
+entero
+
+
+
+ a| 
+estado
+ a| 
+El estado de la operación. Los posibles valores son los siguientes:
+
+* preparando
+* activo
+* listo
+* error
+
+ a| 
+cadena
+
+
+
+ a| 
+guión
+ a| 
+El nombre del script, si se proporciona alguno.
+ a| 
+cadena
+
+
+
+ a| 
+ID de copia Snapshot
+ a| 
+El ID de la copia de Snapshot si una copia de Snapshot se encuentra en el origen del trabajo de volumen masivo.
+ a| 
+entero
+
+
+
+ a| 
+tipo
+ a| 
+El tipo de operación a granel. Los posibles valores son los siguientes:
+
+* lea
+* escritura
+
+ a| 
+cadena
+
+|===
