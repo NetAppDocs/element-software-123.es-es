@@ -1837,7 +1837,6 @@
   <block id="1ec8160ad002d3b57b0367c162c7e579" category="open-title">Plugin de Element vCenter versión 5.0 o posterior</block>
   <block id="493b4872884198c5773208e29a2d2ce6" category="paragraph">A partir del plugin de Element para VMware vCenter Server 5.0, este procedimiento de actualización cubre los siguientes escenarios de actualización:</block>
   <block id="ffccf7c96c162cb046e6087e5ff2c25c" category="list-text">Actualice al plugin de Element para vCenter Server 5.0.</block>
-  <block id="b5bcaf2164ee5f3d1a22b016747f08e1" category="list-text">Actualice a un HTML5 8.0 o 7.0 vSphere Web Client.</block>
   <block id="787e0e54cc17d9dd6bbd7cf4c4fbc14d" category="admonition">El plugin de Element para vCenter 5.0 y versiones posteriores no es compatible con vCenter Server 6.7 y 6.5.</block>
   <block id="6243a047f7c7bcc2f2961e8a74f1b5c7" category="admonition">Cuando se actualiza desde el plugin de Element para vCenter Server 4.x a la 5.0, los clústeres ya configurados con el plugin se pierden porque los datos no se pueden copiar de una instancia de vCenter a un plugin remoto. Debe volver a añadir los clústeres al plugin remoto. Esta es una actividad que solo debe hacer una vez al actualizar desde un plugin local a un plugin remoto.</block>
   <block id="e6d87bbd73a5a86fcf1e6cbc75296808" category="open-title">Plugin de Element vCenter versión 4.10 o anterior</block>
@@ -10633,9 +10632,6 @@
   <block id="44543eb5b88afa710ea8813b71ff2218" category="list-text">Para eliminar también los iniciadores asociados con este grupo de acceso, active la casilla de verificación *Eliminar iniciadores de este grupo de acceso* .</block>
   <block id="25145b9df35ba6ef8386c92cbc7e67aa" category="summary">Si necesita desconectar un clúster completo, puede hacerlo después de haberse puesto en contacto con el servicio de soporte de NetApp y haber completado unos pasos preliminares.</block>
   <block id="d3dc741b1e26e016be52c0a55b325fda" category="doc">Apague un clúster</block>
-  <block id="7e75e710e04194aacb5b7f056ec5e471" category="paragraph">Prepare el clúster para su apagado haciendo lo siguiente:</block>
-  <block id="7bf4e8d030b2c47061505b2052e7e3c8" category="list-text">Detenga todas las operaciones de I/O.</block>
-  <block id="c1fc137e8581e89d2a694ed758b29c11" category="list-text">Desconecte todas las sesiones de iSCSI.</block>
   <block id="52774163f10fbc297ca1a2188d7b81c9" category="list-text">Acceda a la dirección IP virtual de gestión (MVIP) en el clúster para abrir la interfaz de usuario de Element.</block>
   <block id="ecb5391ff71658726fe4fbade2f9af5e" category="list-text">Revise los nodos que aparecen en la lista Nodes.</block>
   <block id="7a9ac18ef12501dac2ab0cc718dd03a4" category="list-text">Ejecute el método API Shutdown especificando la opción halt en cada ID de nodo del clúster.</block>
@@ -12114,11 +12110,8 @@
   <block id="42f7abee041191982e62a8be28908be9" category="admonition">El proceso RTFI es destructivo para los datos y borra todos los datos y detalles de configuración del nodo de forma segura e instala un nuevo sistema operativo. Compruebe que el nodo utilizado para el proceso RTFI no está activo como parte de un clúster.</block>
   <block id="229a83df3c23d08a8495591aab99bf5b" category="paragraph">Despliegue e instale la imagen de la Organización Internacional de Normalización (ISO) de RTFI y realice el proceso RTFI:</block>
   <block id="097f61b38015fce3acc737235b76aa70" category="inline-xref-macro">Opciones de implementación e instalación de RTFI</block>
-  <block id="4761cf42d3167c91f942aaa5770bce7b" category="list-text"><block ref="4761cf42d3167c91f942aaa5770bce7b" category="inline-xref-macro-rx"></block></block>
   <block id="03c983b266b251bb360f154a87f5a7db" category="inline-xref-macro">Realice el proceso RTFI</block>
-  <block id="8e03dc636d7913fabfabd316d5e54ac0" category="list-text"><block ref="8e03dc636d7913fabfabd316d5e54ac0" category="inline-xref-macro-rx"></block></block>
   <block id="77dbf78682c95c78602bbd4ddd8b2dea" category="inline-xref-macro">Menú de opciones de RTFI</block>
-  <block id="82deed01641c36ab7f885c50d27dcaea" category="list-text"><block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block></block>
   <block id="455e04e890a917dabd740787d10d37e7" category="summary">Puede encontrar información sobre la instalación y el mantenimiento de los nodos de almacenamiento SF-Series.</block>
   <block id="3e3c2a691cbef24ca28616a7ca366f00" category="paragraph">A continuación encontrará los enlaces al contenido de instalación y mantenimiento:</block>
   <block id="3c59e467187d08cbdc1b648a98c8f182" category="inline-link-macro">Instalar y configurar nodos C-Series de SolidFire</block>
@@ -12507,7 +12500,6 @@
   <block id="d9ad78cdc934862de52578f1e80348b6" category="inline-link">Documentación para la versión del software Element</block>
   <block id="4cafaba2174b734c409ee5766b4c90a8" category="paragraph">Para configurar el nodo una vez finalizado correctamente el proceso de RTFI, consulte<block ref="ad60dd2928135a9355e0d51cd38822f2" category="inline-link-rx"></block>. Una vez que un nodo finaliza correctamente el proceso RTFI, pasa al estado _Available_ (sin configurar) de forma predeterminada.</block>
   <block id="9bbce3f386ebd93c00f99ac698c4f85e" category="paragraph">Utilice el siguiente procedimiento para restaurar el software Element en su nodo SolidFire.</block>
-  <block id="98f034cb87c1c327b13fbbbb31bc622b" category="paragraph">Para obtener información sobre cómo crear una clave USB o utilizar el BMC para realizar el proceso RTFI, consulte <block ref="4761cf42d3167c91f942aaa5770bce7b" category="inline-xref-macro-rx"></block>.</block>
   <block id="e291c5603b49506d01779471f77ce7c8" category="paragraph">Compruebe que cumple los siguientes requisitos:</block>
   <block id="4a97b78efa5043e19cc08344b22fccb7" category="list-text">Tiene acceso a una consola para el nodo SolidFire.</block>
   <block id="8c84f98354c5ad685a8ff935ecdb2630" category="list-text">El nodo en el que está realizando el proceso RTFI se enciende y se conecta a una red.</block>
@@ -12662,4 +12654,20 @@
   <block id="27f2e04c96b5ac3b10c4de8069658227" category="sidebar">Utilice copias Snapshot de grupo para la protección de datos</block>
   <block id="cf35d1bd4f63afd1c731729075f91d65" category="sidebar">ROL realizar backups de volúmenes a una copia de Snapshot de grupo</block>
   <block id="f3ef8562bc46b3fd5d64fc8a88bab6f9" category="sidebar">Instale los nodos H410S y H610S</block>
+  <block id="61517793d4523320c7cd75e303ad36ff" category="list-text">Actualice a un HTML5 8.0 o 7.0 vSphere Web Client.</block>
+  <block id="57d4d715f0b6238380a88647e5064ab7" category="paragraph">Realice el siguiente procedimiento para desconectar un clúster completo.</block>
+  <block id="69824b5487e4b72a56fe97cb153b7404" category="list-text">(Opcional) comuníquese con el soporte de NetApp para obtener ayuda en la realización de los pasos preliminares.</block>
+  <block id="f901f3a344a86528165d6bab6500fbc5" category="list-text">Verifique que todas las operaciones de I/o se hayan detenido.</block>
+  <block id="f0b8c58f8c65aac7a69a51384ac1a649" category="list-text">Desconecte todas las sesiones de iSCSI:</block>
+  <block id="391aec42faef3b52d4eaaefa153733b2" category="paragraph">Cuando reinicia el clúster, debe seguir algunos pasos para verificar que todos los nodos entran en línea:</block>
+  <block id="56312700a2d03ce6cacae049f3294807" category="list-text">Compruebe que todas las gravedad crítica y.<block ref="945c53fff9195b4e69a31c30b6a268c6" prefix=" " category="inline-code"></block> se resolvieron errores del clúster.</block>
+  <block id="6331b65d2bb9f0f39b6e8331e5b2c669" category="list-text">Espere de 10 a 15 minutos para que el clúster se asiente.</block>
+  <block id="301bf6ea727a40a8d5cc8608cc0c41d7" category="list-text">Empiece a poner los hosts a acceder a los datos.</block>
+  <block id="c192e3c2dbd374233d4685406db01520" category="paragraph">Si desea permitir más tiempo al encender los nodos y verificar que su estado sea después del mantenimiento, póngase en contacto con el soporte técnico para obtener ayuda con la demora de la sincronización de datos para evitar la sincronización innecesaria de bandejas.</block>
+  <block id="eef615f9029df3b19885b836d67d03a3" category="inline-link">Cómo apagar y encender correctamente un clúster de almacenamiento SolidFire/HCI de NetApp</block>
+  <block id="b8c22947a9d726cf79f399d361ecc7a2" category="paragraph"><block ref="b8c22947a9d726cf79f399d361ecc7a2" category="inline-link-rx"></block></block>
+  <block id="51de7a2a44178422229997edab051ac7" category="list-text"><block ref="51de7a2a44178422229997edab051ac7" category="inline-xref-macro-rx"></block></block>
+  <block id="8f047e2b521fd8a37be46c7a429ab25b" category="list-text"><block ref="8f047e2b521fd8a37be46c7a429ab25b" category="inline-xref-macro-rx"></block></block>
+  <block id="c2350b958761f326a00bd673fc30fdae" category="list-text"><block ref="c2350b958761f326a00bd673fc30fdae" category="inline-xref-macro-rx"></block></block>
+  <block id="4de84bc0dceded350b6aa7db34f7e00d" category="paragraph">Para obtener información sobre cómo crear una clave USB o utilizar el BMC para realizar el proceso RTFI, consulte <block ref="51de7a2a44178422229997edab051ac7" category="inline-xref-macro-rx"></block>.</block>
 </blocks>
