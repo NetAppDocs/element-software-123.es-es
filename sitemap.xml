@@ -148,7 +148,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/concept_element_api_cluster_api_methods.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -321,41 +321,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/concept_esds_maintain.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/concept_esds_monitor_clusters.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/concept_esds_networking_best_practices.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/concept_esds_prerequisite_tasks.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/concept_get_started_esds.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/hardware/concept_h410s_h610s_info.html</loc>
       
       <lastmod>2023-02-20T17:55:16+00:00</lastmod>
@@ -435,7 +400,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/concepts/concept_intro_product_overview.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -638,7 +603,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/concepts/concept_solidfire_concepts_security.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -708,7 +673,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/storage/concept_system_manage_key_get_started_with_external_key_management.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -867,13 +832,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/setup/</loc>
       
       <lastmod>2023-02-20T17:55:16+00:00</lastmod>
@@ -911,7 +869,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/legal-notices.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -1303,7 +1261,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_createcluster.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -1569,14 +1527,14 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_disablebmccoldreset.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_disableclusterssh.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -1618,7 +1576,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_disablessh.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -1639,14 +1597,14 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_enablebmccoldreset.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_enableclusterssh.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -1695,7 +1653,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_enablessh.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -1842,7 +1800,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_getclusterinfo.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -1982,14 +1940,14 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_getipmiconfig.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_getipmiinfo.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -2009,13 +1967,6 @@
   
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_getldapconfiguration.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_getlicensekey.html</loc>
       
       <lastmod>2023-02-20T17:55:16+00:00</lastmod>
       
@@ -2241,7 +2192,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_getsshinfo.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -2458,7 +2409,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_listclusterinterfacepreferences.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -2563,7 +2514,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_listnetworkinterfaces.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -2584,7 +2535,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_listnodestats.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -3305,14 +3256,14 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_resetnetworkconfig.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_resetnode.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -3410,7 +3361,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_restartnetworking.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -3501,19 +3452,12 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_setconfig.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_setdefaultqos.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_setlicensekey.html</loc>
       
       <lastmod>2023-02-20T17:55:16+00:00</lastmod>
       
@@ -3543,7 +3487,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_setnetworkconfig.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -3564,7 +3508,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_setntpinfo.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -3795,7 +3739,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/api/reference_element_api_testaddressavailability.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -3975,41 +3919,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/reference_esds_containerlogs.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/reference_esds_element_links.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/reference_esds_sf_sds_config_file.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/reference_esds_troubleshoot_links.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/reference_esds_use_maintenance_mode.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/storage/reference_intro_icon_reference.html</loc>
       
       <lastmod>2023-02-20T17:55:16+00:00</lastmod>
@@ -4061,14 +3970,14 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/storage/reference_per_node_cluster_settings_details.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/storage/reference_per_node_network_settings_details.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -4166,7 +4075,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123//search.html</loc>
       
-      <lastmod>2023-03-02T14:02:47+00:00</lastmod>
+      <lastmod>2023-03-07T16:16:01+00:00</lastmod>
       
     </url>
   
@@ -4201,7 +4110,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/hccstorage/task-hcc-manage-storage-clusters.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -4222,7 +4131,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/hccstorage/task-hcc-nodes.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -4606,62 +4515,6 @@
   
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/storage/task_data_protection_using_volume_snapshots.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/task_esds_configure_the_interface_config_files.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/task_esds_dl360_drive_repl.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/task_esds_get_license_key.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/task_esds_install_using_ansible.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/task_esds_postinstallation.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/task_esds_r640_drive_repl.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/task_esds_uninstall.html</loc>
-      
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/es-es/element-software-123/esds/task_esds_upgrade_cluster.html</loc>
       
       <lastmod>2023-02-20T17:55:16+00:00</lastmod>
       
@@ -5223,7 +5076,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/setup/task_setup_create_a_storage_cluster.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -5384,14 +5237,14 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/storage/task_system_manage_cluster_enable_and_disable_support_access.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -5412,7 +5265,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/storage/task_system_manage_cluster_ntp_set_the_network_time_protocol.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
@@ -5517,7 +5370,7 @@
     <url>
       <loc>https://docs.netapp.com/es-es/element-software-123/storage/task_system_manage_nodes_adding_a_node_to_a_cluster.html</loc>
       
-      <lastmod>2023-02-20T17:55:16+00:00</lastmod>
+      <lastmod>2023-03-07T16:15:44+00:00</lastmod>
       
     </url>
   
