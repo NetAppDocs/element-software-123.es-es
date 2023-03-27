@@ -1827,7 +1827,6 @@
   <block id="e6c04958395a323ddbc02c929b4dfdf0" category="paragraph">Es posible actualizar el registro del plugin en vCenter Server Virtual Appliance (vcsa) o Windows desde la utilidad de registro. Debe cambiar el registro del plugin de vCenter en cada instancia de vCenter Server donde necesite usar el plugin.</block>
   <block id="56f4bca23bb3dd45148dc7171511b7e5" category="paragraph">Este procedimiento de actualización cubre los siguientes escenarios de actualización.</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">Leer más</block>
-  <block id="ec78c54d60054bc44ae2e26c00313bdb" category="admonition">Los servicios de gestión 2.22.7 incluyen el plugin de NetApp Element para VMware vCenter Server 5.0, que contiene el plugin remoto. Si usa el plugin de Element, debe actualizar a la versión 5.0 para cumplir con la directiva de VMware que elimina la compatibilidad con los plugins locales.<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block>. Si no se utiliza el plugin, esta es una actualización opcional.</block>
   <block id="1ec8160ad002d3b57b0367c162c7e579" category="open-title">Plugin de Element vCenter versión 5.0 o posterior</block>
   <block id="493b4872884198c5773208e29a2d2ce6" category="paragraph">A partir del plugin de Element para VMware vCenter Server 5.0, este procedimiento de actualización cubre los siguientes escenarios de actualización:</block>
   <block id="ffccf7c96c162cb046e6087e5ff2c25c" category="list-text">Actualice al plugin de Element para vCenter Server 5.0.</block>
@@ -11974,4 +11973,7 @@
   <block id="5a4b8b3924bb822fd8c6ae8c1c9b7030" category="paragraph">Puede añadir nodos a dispositivos NetApp HCI.</block>
   <block id="1a6db061a54638a3fdcefd71c9bfd9ad" category="paragraph">Una vez completado el proceso de adición de nodos, aparecen en la lista Active Nodes. Hasta entonces, los nodos pendientes aparecen en la lista Pending Active.</block>
   <block id="4a65434b4e4d8c919262bffbcc775165" category="paragraph">SolidFire instala la versión del software Element del clúster en los nodos pendientes cuando se añaden a un clúster. Esto puede tardar varios minutos.</block>
+  <block id="bddb591f0b60efba3de48f954b55f287" category="inline-link-macro">Aviso relativo a los servicios de gestión 2.23.64 (complemento NetApp Element para VMware vCenter Server 5.1.12)</block>
+  <block id="2926dc5780f42141aca045c0001024a5" category="list-text"><block ref="2926dc5780f42141aca045c0001024a5" category="inline-link-macro-rx"></block></block>
+  <block id="ea52eab386a36623963eee64d8468c76" category="list-text">Los servicios de gestión 2.22.7 incluyen el plugin de Element para vCenter Server 5.0, que contiene el plugin remoto. Si usa el plugin de Element, debe actualizar a los servicios de gestión 2.22.7 o una versión posterior para cumplir con la directiva de VMware que elimina la compatibilidad con los plugins locales.<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block>.</block>
 </blocks>

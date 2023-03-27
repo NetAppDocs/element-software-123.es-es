@@ -24,7 +24,7 @@ A partir del lanzamiento del nodo de gestión Element 11.3, el diseño del nodo 
 
 [NOTE]
 ====
-* Los servicios de gestión 2.22.7 incluyen el plugin de NetApp Element para VMware vCenter Server 5.0, que contiene el plugin remoto. Si usa el plugin de Element, debe actualizar a la versión 5.0 para cumplir con la directiva de VMware que elimina la compatibilidad con los plugins locales. https://kb.vmware.com/s/article/87880["Leer más"^]. Si no se utiliza el plugin, esta es una actualización opcional.
+* Los servicios de gestión 2.22.7 incluyen el plugin de Element para vCenter Server 5.0, que contiene el plugin remoto. Si usa el plugin de Element, debe actualizar a los servicios de gestión 2.22.7 o una versión posterior para cumplir con la directiva de VMware que elimina la compatibilidad con los plugins locales. https://kb.vmware.com/s/article/87880["Leer más"^].
 * Para obtener las notas de la versión de los servicios de gestión más recientes, en las que se describen servicios principales, funciones nuevas, correcciones de errores y soluciones alternativas para cada paquete de servicio, consulte https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["las notas de la versión de los servicios de gestión"^]
 
 
