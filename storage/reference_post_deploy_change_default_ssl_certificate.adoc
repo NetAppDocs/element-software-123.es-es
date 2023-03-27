@@ -17,19 +17,17 @@ Cuando se crea un clúster de software de NetApp Element, el clúster crea un ce
 
 Puede utilizar los siguientes métodos API para obtener más información sobre el certificado SSL predeterminado y realizar cambios.
 
-Para obtener más información sobre cada método, consulte link:../api/index.html["Referencia de API del software NetApp Element"].
-
 * *GetSSLCertificate*
 +
-Puede utilizar este método para recuperar información acerca del certificado SSL instalado actualmente, incluidos todos los detalles del certificado.
+Puede utilizar el link:../api/reference_element_api_getsslcertificate.html["Método GetSSLCertificate"] Para recuperar información acerca del certificado SSL instalado actualmente, incluidos todos los detalles del certificado.
 
 * *SetSSLCertificate*
 +
-Puede utilizar este método para establecer los certificados SSL de clúster y por nodo en el certificado y la clave privada que proporcione. El sistema valida el certificado y la clave privada para evitar que se aplique un certificado no válido.
+Puede utilizar el link:../api/reference_element_api_setsslcertificate.html["Método SetSSLCertificate"] Para establecer los certificados SSL por clúster y por nodo en el certificado y la clave privada que suministre. El sistema valida el certificado y la clave privada para evitar que se aplique un certificado no válido.
 
 * *RemoveSSLCertificate*
 +
-Este método quita el certificado SSL y la clave privada instalados actualmente. A continuación, el clúster genera un nuevo certificado autofirmado y una clave privada.
+La link:../api/reference_element_api_removesslcertificate.html["Método RemoveSSLCertificate"] Quita el certificado SSL y la clave privada instalados actualmente. A continuación, el clúster genera un nuevo certificado autofirmado y una clave privada.
 
 
 
@@ -40,6 +38,8 @@ NOTE: El certificado SSL de clúster se aplica automáticamente a todos los nodo
 
 == Obtenga más información
 
+* link:../mnode/reference_change_mnode_default_ssl_certificate.html["Cambie el certificado SSL predeterminado del nodo de gestión"]
+* https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_are_the_requirements_around_setting_custom_SSL_certificates_in_Element_Software%3F["¿Cuáles son los requisitos para configurar certificados SSL personalizados en el software Element?"^]
 * https://www.netapp.com/data-storage/solidfire/documentation["Página SolidFire y Element Resources"^]
 * https://docs.netapp.com/us-en/vcp/index.html["Plugin de NetApp Element para vCenter Server"^]
 

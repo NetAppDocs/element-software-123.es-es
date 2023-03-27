@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: upgrade/task_vcp_upgrade_plugin.html 
 summary: Como parte de una actualización del sistema de almacenamiento SolidFire de NetApp, puede actualizar el plugin de Element para vCenter Server. 
-keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 4.10, 5.0 
+keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 4.10, 5.0, 5.1 
 ---
 = Actualice el plugin de Element para vCenter Server
 :hardbreaks:
@@ -18,8 +18,6 @@ Para los entornos de vSphere existentes con un plugin de NetApp Element registra
 
 Es posible actualizar el registro del plugin en vCenter Server Virtual Appliance (vcsa) o Windows desde la utilidad de registro. Debe cambiar el registro del plugin de vCenter en cada instancia de vCenter Server donde necesite usar el plugin.
 
-Este procedimiento de actualización cubre los siguientes escenarios de actualización.
-
 
 NOTE: Los servicios de gestión 2.22.7 incluyen el plugin de Element para vCenter Server 5.0, que contiene el plugin remoto. Si usa el plugin de Element, debe actualizar a los servicios de gestión 2.22.7 o una versión posterior para cumplir con la directiva de VMware que elimina la compatibilidad con los plugins locales. https://kb.vmware.com/s/article/87880["Leer más"^].
 
@@ -27,9 +25,9 @@ NOTE: Los servicios de gestión 2.22.7 incluyen el plugin de Element para vCente
 ====
 .Plugin de Element vCenter versión 5.0 o posterior
 --
-A partir del plugin de Element para VMware vCenter Server 5.0, este procedimiento de actualización cubre los siguientes escenarios de actualización:
+Este procedimiento de actualización cubre los siguientes escenarios de actualización:
 
-* Actualice al plugin de Element para vCenter Server 5.0.
+* Actualice al plugin de Element para vCenter Server 5.1 o 5.0.
 * Actualice a un HTML5 8.0 o 7.0 vSphere Web Client.
 +
 
@@ -38,12 +36,12 @@ IMPORTANT: El plugin de Element para vCenter 5.0 y versiones posteriores no es c
 
 
 
-NOTE: Cuando se actualiza desde el plugin de Element para vCenter Server 4.x a la 5.0, los clústeres ya configurados con el plugin se pierden porque los datos no se pueden copiar de una instancia de vCenter a un plugin remoto. Debe volver a añadir los clústeres al plugin remoto. Esta es una actividad que solo debe hacer una vez al actualizar desde un plugin local a un plugin remoto.
+NOTE: Cuando se actualiza desde el plugin de Element para vCenter Server 4.x a 5.x, los clústeres ya configurados con el plugin se pierden porque no se pueden copiar los datos de una instancia de vCenter en un plugin remoto. Debe volver a añadir los clústeres al plugin remoto. Esta es una actividad que solo debe hacer una vez al actualizar desde un plugin local a un plugin remoto.
 
 --
 .Plugin de Element vCenter versión 4.10 o anterior
 --
-Para el plugin de Element para vCenter Server 4.10 o una versión anterior, este procedimiento de actualización cubre los siguientes escenarios de actualización:
+Este procedimiento de actualización cubre los siguientes escenarios de actualización:
 
 * Actualice al plugin de Element para vCenter Server 4.10, 4.9, 4.8, 4.7, 4.6, 4.5, o 4.4.
 * Va a actualizar a un HTML5 7.0, 6.7 o 6.5 vSphere Web Client.
@@ -91,7 +89,7 @@ image::vcp_registration_utility_ui_qossioc.png[Muestra la interfaz de usuario de
 
 . Seleccione *vCenter Plug-in Registration*.
 +
-** La página de registro del plugin de vCenter para el plugin de Element para vCenter Server 5.0:
+** La página de registro del plugin de vCenter para el plugin de Element para vCenter Server 5.x:
 +
 image::vcp_remote_plugin_registration_ui.png[Muestra la interfaz de usuario de la utilidad de registro del plugin]
 
