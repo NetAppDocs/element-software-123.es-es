@@ -194,16 +194,6 @@ SolidFire eSDS ya está disponible en los servidores Dell R640. Consulte https:/
 
 
 
-=== Nueva documentación para SolidFire eSDS
-
-La siguiente documentación nueva está disponible para SolidFire eSDS:
-
-* https://docs.netapp.com/us-en/element-software/esds/task_esds_r640_drive_repl.html["Sustituya las unidades para Dell R640"^]: Proporciona los pasos necesarios para sustituir las unidades en los servidores Dell R640.
-* https://kb.netapp.com/Special:Search?query=solidfire+enterprise+SDS&type=wiki["Artículos de la base de conocimientos (se requiere inicio de sesión)"^]: Proporciona información acerca de la solución de problemas con el sistema SolidFire eSDS.
-
-
-
-
 === Nueva ubicación para problemas conocidos de SolidFire eSDS
 
 Ahora puede buscar problemas conocidos en https://mysupport.netapp.com/site/products/all/details/solidfire-enterprise-sds/bugsonline-tab["Herramienta bugs Online (se requiere inicio de sesión)"^].

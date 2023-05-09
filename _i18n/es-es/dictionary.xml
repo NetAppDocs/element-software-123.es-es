@@ -881,7 +881,6 @@
   <block id="13a12eaece4fc3e5cb8a8919844ca623" category="inline-link-macro">Ver o editar activos de controladora existentes</block>
   <block id="e578d1edd1f3c874d49e1c9e76becbbc" category="list-text"><block ref="e578d1edd1f3c874d49e1c9e76becbbc" category="inline-link-macro-rx"></block></block>
   <block id="6740b5cf3dc8479800bac9edc86cd31a" category="inline-link-macro">Use la API DE REST para recoger registros del sistema Element</block>
-  <block id="e6f552ff8b981823a09e603dcf005093" category="list-text"><block ref="e6f552ff8b981823a09e603dcf005093" category="inline-link-macro-rx"></block></block>
   <block id="29938f46373e7c8bf7adb5248272e85d" category="inline-link-macro">Verifique el sistema operativo del nodo de gestión y las versiones de servicios</block>
   <block id="c9676e9b030c94e7e828a060b343f3db" category="list-text"><block ref="c9676e9b030c94e7e828a060b343f3db" category="inline-link-macro-rx"></block></block>
   <block id="a5790b06c6321c773eca064d8f8b323a" category="inline-link-macro">Obtener registros de los servicios de gestión</block>
@@ -2045,12 +2044,6 @@
   <block id="893da6ab703ccebc0128c2188fce2dfa" category="section-title">Comportamiento mejorado para unidades con fallos</block>
   <block id="bc8064d6976a4ae417d9071be509d014" category="paragraph">Element 12.3 realiza comprobaciones periódicas del estado en las unidades del dispositivo SolidFire mediante datos INTELIGENTES de estado de las unidades. Una unidad que no supera la comprobación DEL estado INTELIGENTE puede estar cerca de un fallo. Si una unidad falla la comprobación DE estado INTELIGENTE, la unidad pasa al estado *con error* y aparece un error en el clúster de gravedad crítica:<block ref="8b90a494c5eb87fe572139f67f07a422" prefix=" " category="inline-code"></block></block>
   <block id="f27e588d7a898f97a40bb017bc0cb67e" category="paragraph">SolidFire eSDS ya está disponible en los servidores Dell R640. Consulte<block ref="bbf12a00ac2004a394e4a5957119453c" category="inline-link-rx"></block> para obtener más información sobre la configuración compatible.</block>
-  <block id="b4eb0a7d2f620a735a49d295cf464c57" category="section-title">Nueva documentación para SolidFire eSDS</block>
-  <block id="7b23dd0b7e8640cee7cc760aebda33b4" category="paragraph">La siguiente documentación nueva está disponible para SolidFire eSDS:</block>
-  <block id="f450dc1f11b420ef61c997b620a5ddf3" category="inline-link">Sustituya las unidades para Dell R640</block>
-  <block id="0758acb395116abd9e0939201a27edd6" category="list-text"><block ref="cf3efad461dedbcc789786816f0318a6" category="inline-link-rx"></block>: Proporciona los pasos necesarios para sustituir las unidades en los servidores Dell R640.</block>
-  <block id="5ecc3fdf34ca55d0377ecf551fdb9635" category="inline-link">Artículos de la base de conocimientos (se requiere inicio de sesión)</block>
-  <block id="4b88ce6903140a7f757c6509c06012dc" category="list-text"><block ref="a047a2b1ef295d12a54302870ed64e97" category="inline-link-rx"></block>: Proporciona información acerca de la solución de problemas con el sistema SolidFire eSDS.</block>
   <block id="295216d6678c57d5badf5770238d96b5" category="section-title">Nueva ubicación para problemas conocidos de SolidFire eSDS</block>
   <block id="4a5792ce9d744e9fb996d5cbb1e303d8" category="inline-link">Herramienta bugs Online (se requiere inicio de sesión)</block>
   <block id="28bab3e7358cc261a7101ba6a439e4eb" category="paragraph">Ahora puede buscar problemas conocidos en<block ref="4010019de5d8f9d6e5f30f9d5509ab8d" category="inline-link-rx"></block>.</block>
@@ -2314,7 +2307,6 @@
   <block id="c8de9bc8a027f0e5864fb603489b44fd" category="list-text"><block ref="c8de9bc8a027f0e5864fb603489b44fd" category="inline-link-rx"></block></block>
   <block id="a0b768ade98ef6cf3df956008c966806" category="list-text"><block ref="a0b768ade98ef6cf3df956008c966806" category="inline-link-rx"></block></block>
   <block id="af149d844cc5e37dba5faa0cc28a9285" category="inline-link-macro">Notas de la versión de H610S BMC 3.84.07</block>
-  <block id="eead60ae6beeaad1ec995f62a611e1c3" category="list-text"><block ref="eead60ae6beeaad1ec995f62a611e1c3" category="inline-link-macro-rx"></block></block>
   <block id="89e3bb4cf03209dcb9c85e2455cde9c3" category="inline-link">Documentación para versiones anteriores de SolidFire de NetApp y los productos Element</block>
   <block id="461166164223a1234073a2c9d388d33a" category="list-text"><block ref="461166164223a1234073a2c9d388d33a" category="inline-link-rx"></block></block>
   <block id="148da2fc8997120fa9c4ae723fb03eb1" category="summary">Active IQ es una herramienta web que proporciona vistas históricas actualizadas continuamente de los datos de todo el clúster. Es posible configurar alertas para eventos, umbrales o métricas específicos. Active IQ le permite supervisar la capacidad y el rendimiento del sistema, así como mantenerse informado sobre el estado del clúster.</block>
@@ -2579,9 +2571,7 @@
   <block id="829222e37a81e6723ec1c8312f0896ff" category="doc">Servicios de gestión para el almacenamiento all-flash de SolidFire</block>
   <block id="83221d7a8e6873bb96d6fbbd9afcf8e8" category="inline-link-macro">nodo de gestión</block>
   <block id="a818b18784f90669084d24af8a7d4d6b" category="paragraph">A partir de la versión Element 11.3, *servicios de administración* se alojan en el <block ref="5faa37a8cb9b8f7bb17a5a6af86182c8" category="inline-link-macro-rx"></block>, permitiendo actualizaciones más rápidas de determinados servicios de software fuera de las versiones principales.</block>
-  <block id="33613f9e26b4d3202f0d812df6bedba3" category="paragraph">Los servicios de gestión proporcionan una funcionalidad de gestión centralizada y ampliada para el almacenamiento all-flash de SolidFire. Estos servicios incluyen <block ref="53cac838271c3c6f19adc6b835ed9d5f" category="inline-link-macro-rx"></block>, Telemetría del sistema de Active IQ, registro y actualizaciones de servicio, así como el servicio QoSSIOC para el plugin de Element para vCenter.</block>
   <block id="257409197ae1a07404e333be63986ac6" category="inline-link-macro">lanzamientos de servicios de gestión</block>
-  <block id="4651d824b0048b0eb592cc60e9dd3977" category="admonition">Más información acerca de <block ref="873adfb4e707b3b5ed2423771a9400e1" category="inline-link-macro-rx"></block>.</block>
   <block id="c32a3c12c803226717a8d8f8c9b8f96f" category="summary">Los grupos de acceso de volúmenes del almacenamiento SolidFire de NetApp permiten que los IQN de iniciadores de iSCSI o WWPN de Fibre Channel accedan a una colección de volúmenes. Cada IQN que se añade a un grupo de acceso puede acceder a cada volumen del grupo sin utilizar autenticación CHAP. Cada WWPN que se añade a un grupo de acceso habilita el acceso a la red de Fibre Channel a los volúmenes del grupo de acceso.</block>
   <block id="b4621305109716b02eed0cf25fabab13" category="doc">Los grupos de acceso de volúmenes</block>
   <block id="ddc68691fceae11e532f52779f072b62" category="paragraph">Mediante la creación y el uso de grupos de acceso de volúmenes, se puede controlar el acceso a un conjunto de volúmenes. Cuando se asocia un conjunto de volúmenes y un conjunto de iniciadores a un grupo de acceso de volúmenes, el grupo de acceso otorga a esos iniciadores acceso al conjunto de volúmenes.</block>
@@ -3624,7 +3614,6 @@
   <block id="56bb1086d311276932b932008551faad" category="paragraph">Puede utilizar el<block ref="7f3b1babd1f170f73cb0ff4719c65294" prefix=" " category="inline-code"></block> método para quitar el cifrado que se aplicó previamente al clúster mediante el<block ref="b0a869229fda0716942c6afbaa26ba2a" prefix=" " category="inline-code"></block> método. Este método disable es asíncrono y devuelve una respuesta antes de que se deshabilite el cifrado. Puede utilizar el<block ref="8edcd7780c99fc7a69b6f53d8748b0af" prefix=" " category="inline-code"></block> método para sondear el sistema para ver cuándo se ha completado el proceso.</block>
   <block id="b6da302462725db65b08725e21534c35" category="inline-link-macro">obtenga el método de información del clúster</block>
   <block id="df55ce8d5994202037ca7f6b8add22fc" category="inline-link-macro">método para obtener información que utiliza el clúster para cifrar datos en reposo</block>
-  <block id="8645b3842f2ebbd31ef1556eca13e734" category="admonition">Para ver el estado actual del cifrado en reposo y/o el cifrado de software en reposo en el clúster, use el <block ref="266af3c6722606b03dffbc748cf8f335" category="inline-link-macro-rx"></block>. Puede utilizar el<block ref="2132cae62c1d77dfa3dd7c3447c77cf5" prefix=" " category="inline-code"></block> <block ref="71cd4d0c7a8355e8bd1074b7039cdde9" category="inline-link-macro-rx"></block>.</block>
   <block id="f706c2c9f764a1928af56503f593ce7c" category="inline-link-macro">cree un nuevo clúster</block>
   <block id="03c723d3c658548008f592aa302e8409" category="admonition">No se puede usar este método para deshabilitar el cifrado de software en reposo. Para deshabilitar el cifrado de software en reposo, debe hacerlo <block ref="dd0348ec8bd8a2d5cdfad96177d0413b" category="inline-link-macro-rx"></block> con el cifrado de software en reposo deshabilitado.</block>
   <block id="8edcd7780c99fc7a69b6f53d8748b0af" category="inline-link-macro">GetClusterInfo</block>
@@ -3714,7 +3703,6 @@
   <block id="2c1426081603fa11f6ec5fe617919158" category="paragraph">KmipKeyServers</block>
   <block id="24fdfa87efc0bd3dccff05037bf0a5e8" category="paragraph">La lista completa de los servidores de claves KMIP que se crearon.</block>
   <block id="64ce33c3af0564919d68824260f9d7c0" category="inline-link-macro">KeyServerKmip</block>
-  <block id="0a2a9e2ac4719c4ac6cdb0954649f468" category="paragraph"><block ref="0971c717c82e5a2659fd8ee2d73d170d" category="inline-link-macro-rx"></block> cabina</block>
   <block id="685382cd74c3ec01c39239f301fc4e03" category="paragraph">11.7</block>
   <block id="46e4c8e80e30b04c066b823a09cee5f0" category="summary">Puede usar el método ListVolumeStatsByVolume para enumerar las medidas de actividad de alto nivel para cada volumen, por volumen. Los valores se acumulan a partir de la creación del volumen.</block>
   <block id="27e97d4871384c3d242cfa858abc544a" category="doc">ListVolumeStatsByVolume</block>
@@ -4391,7 +4379,6 @@
   <block id="78acf42d4e20f5f2468d1e65f57abf33" category="paragraph">ProtectionDomainLayout</block>
   <block id="aa47a23cf569353cb392f609c2ec2c7b" category="paragraph">Información de dominio de protección para cada nodo.</block>
   <block id="1d3a1dce54ef68ade1513b1107abb180" category="inline-link-macro">ProtectionDomains de nodo</block>
-  <block id="239e7b7fda84773161e54a846a2d1cd4" category="paragraph">Lista JSON de <block ref="900764c76dfb916163ee11006f145e7d" category="inline-link-macro-rx"></block> objetos.</block>
   <block id="05a5c63fcd5e41bcca1f51f811155ae8" category="paragraph">Lista de nodos, cada uno con sus dominios de protección asociados.</block>
   <block id="3601f88e2853e802af36d099ec7179b3" category="summary">La interfaz de usuario web de Element utiliza DeleteSnapMirrorEndpoints para eliminar uno o varios extremos de SnapMirror del sistema.</block>
   <block id="9907b6be78e261ba2533cbf88c57763c" category="doc">DeleteSnapMirrorEndpoints</block>
@@ -4905,7 +4892,6 @@
   <block id="1414f13beff14c41b0aa2c7a56842e0a" category="paragraph">Puede utilizar el<block ref="6d5b6fd13648c4f279efd9aab7d1aeb3" prefix=" " category="inline-code"></block> método para eliminar una sesión de autenticación de usuario individual. Si el usuario que llama no está en ClusterAdmins / Administrator AccessGroup, sólo se puede eliminar la sesión de autenticación que pertenece al usuario que realiza la llamada.</block>
   <block id="a87393cc3ab4317febece9cfcae2f193" category="paragraph">Identificador único para la sesión de autenticación que se va a eliminar.</block>
   <block id="9bb04369c43ac540d6983eeef48df6a7" category="paragraph">Información de sesión para la sesión de autenticación de eliminación.</block>
-  <block id="b1bff35225b1453efa974801b476caff" category="paragraph"><block ref="b1bff35225b1453efa974801b476caff" category="inline-link-macro-rx"></block></block>
   <block id="7705d67b74741d5834eac9f494d7ed4d" category="summary">El objeto snapMirrorNode contiene información sobre los nodos del clúster de ONTAP de destino en una relación de SnapMirror.</block>
   <block id="4bd19df167961d635953f8c21e2646b4" category="doc">SnapMirrorNode</block>
   <block id="7ff3be7c2e847700132da1238647c1bd" category="paragraph">El nombre del nodo ONTAP.</block>
@@ -5008,7 +4994,6 @@
   <block id="2d956871963e704854b5e24781df3ac6" category="paragraph">KmipKeyProviders</block>
   <block id="daed31255d43e1a9cb8957ea4827280f" category="paragraph">Una lista de los proveedores de claves KMIP que se hayan creado.</block>
   <block id="af6fa3b56666058ff3f8eacb74577a16" category="inline-link-macro">KeyProviderKmip</block>
-  <block id="9e1dc08162fd6287c4fb2fdc4c4a9a0f" category="paragraph"><block ref="318d6ed2c493a66e91fc7d1db5a0f022" category="inline-link-macro-rx"></block> cabina</block>
   <block id="8273fbe652be4df234b01f286a391bdd" category="summary">Puede usar el método EnableMaintenanceMode para preparar un nodo de almacenamiento para el mantenimiento. Los escenarios de mantenimiento incluyen cualquier tarea que requiera que el nodo se apague o se reinicie.</block>
   <block id="1d408af451404e1fa6ebd9bd23408d3f" category="doc">EnableMaintenanceMode</block>
   <block id="5e8b897c4b25cfbdebab4aeaf863c115" category="paragraph">Puede utilizar el<block ref="1d408af451404e1fa6ebd9bd23408d3f" prefix=" " category="inline-code"></block> método para preparar un nodo de almacenamiento para el mantenimiento. Los escenarios de mantenimiento incluyen cualquier tarea que requiera que el nodo se apague o se reinicie.</block>
@@ -5881,11 +5866,9 @@
   <block id="0b119129a70351abed5d422e18444c40" category="paragraph">Identificador único del nodo.</block>
   <block id="b140fd3c0111005bcfc14eb207c72b2d" category="paragraph">ProtectionDomains</block>
   <block id="8182124863c7746cec9195a8d74456c3" category="paragraph">Lista de dominios de protección a los que pertenece el nodo.</block>
-  <block id="4a7c9a0bc1a3ed41374850a08662f9a1" category="paragraph"><block ref="4a7c9a0bc1a3ed41374850a08662f9a1" category="inline-link-macro-rx"></block></block>
   <block id="a1c5aa843b544d43737e68bf101cd099" category="summary">Puede usar el método EnableEncryptionAtRest para habilitar el cifrado Advanced Encryption Standard \(AES\) de 256 bits en reposo en el clúster de modo que el clúster pueda gestionar la clave de cifrado utilizada para las unidades de cada nodo. Esta función no está habilitada de forma predeterminada.</block>
   <block id="f7fbdcd0f959ea03f9c9fe10c1f436f5" category="paragraph">Puede utilizar el<block ref="b0a869229fda0716942c6afbaa26ba2a" prefix=" " category="inline-code"></block> Método para habilitar el cifrado AES (estándar de cifrado avanzado) de 256 bits en reposo en el clúster de manera que el clúster pueda gestionar la clave de cifrado utilizada para las unidades de cada nodo. Esta función no está habilitada de forma predeterminada.</block>
   <block id="9a3e77d40a36fc6582491b29c79ad64a" category="inline-link-macro">cree el método de clúster</block>
-  <block id="54345a69ac071e42416d101550699426" category="admonition">Este método no habilita el cifrado de software en reposo. Esto sólo se puede hacer usando <block ref="156163f61ad8e976859b5234666eb7c2" category="inline-link-macro-rx"></block> con<block ref="8a6d1a92159080729def71f4e50f41d0" prefix=" " category="inline-code"></block> establezca en<block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>.</block>
   <block id="79c6818b5a784bd2a9784bba4752ebda" category="paragraph">Cuando habilita el cifrado en reposo, el clúster gestiona automáticamente las claves de cifrado internamente para las unidades de cada nodo del clúster.</block>
   <block id="06dd8c5540d025434b69c38d303f3e8a" category="paragraph">Si se especifica un keyProviderID, la contraseña se genera y recupera según el tipo de proveedor de claves. Esto suele realizarse mediante un servidor de claves de protocolo de interoperabilidad de gestión de claves (KMIP) en el caso de un proveedor de claves KMIP. Después de esta operación, el proveedor especificado se considera activo y no se puede eliminar hasta que se deshabilite el cifrado en reposo con el<block ref="7f3b1babd1f170f73cb0ff4719c65294" prefix=" " category="inline-code"></block> método.</block>
   <block id="0a78a222fd5e48d5331001cedecde88d" category="admonition">Si tiene un tipo de nodo con un número de modelo que termina en "-NE", la<block ref="b0a869229fda0716942c6afbaa26ba2a" prefix=" " category="inline-code"></block> La llamada al método fallará y la respuesta será "no se permite el cifrado. Cluster detectado nodo no encriptable".</block>
@@ -5990,7 +5973,6 @@
   <block id="7d5132a428ff68bc7e51ac5e537fbe9b" category="paragraph">NewIdpName</block>
   <block id="22cbf2d257b8051278ddcc97997a2e0e" category="paragraph">Si se especifica, este nombre sustituye el nombre del IDP anterior.</block>
   <block id="4fe48157e0ddec891127037ec85510dd" category="paragraph">Información sobre la configuración de IDP de terceros.</block>
-  <block id="9c26e58197dbaa39e74144e77ff06a0e" category="paragraph"><block ref="9c26e58197dbaa39e74144e77ff06a0e" category="inline-link-macro-rx"></block></block>
   <block id="c32f0322cb6b408960ff498c1cee2a28" category="summary">Puede utilizar el método ModifyVolumePair para pausar o reiniciar la replicación entre un par de volúmenes. Este método se establece en el volumen de origen \(el volumen con acceso de lectura/escritura\).</block>
   <block id="3c5df56f303ac80c00793320eedaaeb2" category="paragraph">Puede utilizar el<block ref="dd9cda66914b78dc697a0927c3cb1e66" prefix=" " category="inline-code"></block> método para pausar o reiniciar la replicación entre un par de volúmenes. Este método se establece en el volumen de origen (el volumen con acceso de lectura/escritura).</block>
   <block id="0f0615b604ca82ea63d1038a82577b08" category="paragraph">Número de identificación del volumen que se va a modificar.</block>
@@ -6313,7 +6295,6 @@
   <block id="974693fdadee65527b5cdceff6bb8953" category="paragraph">El ID del servidor de claves KMIP acerca de la cual se desea obtener información.</block>
   <block id="fa086ddf62bedd344204fceb97eb97b1" category="paragraph">KmipKeyServer</block>
   <block id="1fbb4be359a7a5600faaa14367914cac" category="paragraph">Objeto que contiene detalles acerca del servidor de claves solicitado.</block>
-  <block id="0971c717c82e5a2659fd8ee2d73d170d" category="paragraph"><block ref="0971c717c82e5a2659fd8ee2d73d170d" category="inline-link-macro-rx"></block></block>
   <block id="a48261e319f6fa17a188ef638e62c113" category="summary">El objeto Snapshot contiene información sobre una snapshot realizada para un volumen. Es posible usar el método API ListSnapshots para recuperar una lista de información de Snapshot de un volumen o de todos los volúmenes. El objeto incluye información sobre la snapshot activa, así como cada snapshot creada para un volumen.</block>
   <block id="e0a92abb7c90a4053b0eab5ce2018dff" category="paragraph">El objeto Snapshot contiene información sobre una snapshot realizada para un volumen. Puede utilizar el<block ref="b4dfa9524f461a609ad4726f69b847e9" prefix=" " category="inline-code"></block> Método API para recuperar una lista de información de snapshot de un volumen o de todos los volúmenes. El objeto incluye información sobre la snapshot activa, así como cada snapshot creada para un volumen.</block>
   <block id="fc43150cd705e825c4007a6018069fc7" category="paragraph">Una pequeña representación de cadena de los datos de la instantánea almacenada. Esta suma de comprobación se puede utilizar más adelante para comparar otras instantáneas con el fin de detectar errores en los datos.</block>
@@ -6424,7 +6405,6 @@
   <block id="64964fc47ea566f353c4e7393d54179b" category="paragraph">El nombre que se asignará al proveedor de claves KMIP creado. Este nombre sólo se utiliza con fines de visualización y no necesita ser único.</block>
   <block id="c398d0b5db2ad6bd0f494cea5b8f4088" category="paragraph">KmipKeyProvider</block>
   <block id="158fc117241750b333d9029fcd379a0b" category="paragraph">Objeto que contiene detalles acerca del proveedor de claves recién creado.</block>
-  <block id="318d6ed2c493a66e91fc7d1db5a0f022" category="paragraph"><block ref="318d6ed2c493a66e91fc7d1db5a0f022" category="inline-link-macro-rx"></block></block>
   <block id="2d3c992e63d320aeb4107a97a7117b0c" category="summary">Puede utilizar el método GetFipsReport para comprobar el estado de compatibilidad de la función de cifrado FIPS 140-2 de todos los nodos del clúster de almacenamiento.</block>
   <block id="5e2b7434cf4e0f88953400469bd73d86" category="paragraph">Puede utilizar el<block ref="60a290a67d9dba5ca1d1753e33590011" prefix=" " category="inline-code"></block> Método para comprobar el estado de soporte de la función de cifrado FIPS 140-2 de todos los nodos del clúster de almacenamiento.</block>
   <block id="7b9355fa235e9438b2794e21cbcadaa3" category="paragraph">Un objeto JSON que contiene el estado de la compatibilidad con la función FIPS 140-2 para cada nodo e información sobre errores de cada nodo que no responde a la consulta.</block>
@@ -7319,7 +7299,6 @@
   <block id="f3856ff581517deae4c9045682768677" category="paragraph">Recupera la información de configuración de IDP para un nombre de IDP específico.</block>
   <block id="cbf736cf2cf084245cf2ef853366ba11" category="paragraph">IdpConfigInfos</block>
   <block id="c54f92fa106774d26ba461cc1c497aae" category="paragraph">Información sobre las configuraciones de IDP de terceros.</block>
-  <block id="a29f9fdde9669fd7ca1ae6b4127f82b8" category="paragraph"><block ref="9c26e58197dbaa39e74144e77ff06a0e" category="inline-link-macro-rx"></block> cabina</block>
   <block id="41f5226364942217920c4da7dac4fdef" category="summary">Puede utilizar el método DisableIdpAuthentication para deshabilitar la compatibilidad con la autenticación mediante PDI de terceros para el clúster. Una vez deshabilitada, los usuarios autenticados por PDI de terceros ya no pueden acceder al clúster y todas las sesiones autenticadas activas se invalidan o desconectan. Los administradores de LDAP y clúster pueden acceder al clúster a través de interfaces de usuario compatibles.</block>
   <block id="19212cd9e0ef02383305a27bb4236251" category="doc">DisableIdpAuthentication</block>
   <block id="f7782cee0150831210cb8b1d663487e5" category="paragraph">Puede utilizar el<block ref="19212cd9e0ef02383305a27bb4236251" prefix=" " category="inline-code"></block> Método para deshabilitar la compatibilidad con la autenticación mediante PDI de terceros para el clúster. Una vez deshabilitada, los usuarios autenticados por PDI de terceros ya no pueden acceder al clúster y todas las sesiones autenticadas activas se invalidan o desconectan. Los administradores de LDAP y clúster pueden acceder al clúster a través de interfaces de usuario compatibles.</block>
@@ -8231,7 +8210,6 @@
   <block id="28ebc10ef7c343a4cf32aacf144f1590" category="list-text">Para el cifrado basado en hardware en reposo, se ha asegurado de que el clúster está en estado correcto antes de cambiar la configuración de cifrado.</block>
   <block id="53f1251f9f4067bb924700bbc4f4734a" category="list-text">Si va a deshabilitar el cifrado, debe haber dos nodos participando en un clúster para acceder a la clave para deshabilitar el cifrado en una unidad.</block>
   <block id="c7f9a749a25add142f440b6abf05f6c6" category="section-title">Comprobar el cifrado en estado de reposo</block>
-  <block id="cafb235222dece370f504ef5d0d47b47" category="paragraph">Para ver el estado actual del cifrado en reposo y/o el cifrado de software en reposo en el clúster, use el <block ref="b94a2f1f88f1b2af0f1632fc6ab0d549" category="inline-link-macro-rx"></block> método. Puede utilizar el <block ref="599a2456b2fb227210a4ba9b77591706" category="inline-link-macro-rx"></block> método para obtener información que utiliza el clúster para cifrar datos en reposo.</block>
   <block id="189f9cc5227158e41b6756a4618d70a5" category="admonition">La consola de interfaz de usuario del software Element en<block ref="97f434315299f13e3ec034d34efa35ba" prefix=" " category="inline-code"></block> actualmente, solo muestra el cifrado en estado de reposo para el cifrado basado en hardware.</block>
   <block id="6411cb076f9a57f4692e35353d26818b" category="list-text"><block ref="0536a180f702fe272c8546e4728d45b2" category="inline-xref-macro-rx"></block></block>
   <block id="4823ade0859e69629fa1e8f164c00d7d" category="list-text"><block ref="a4d311b39c82c29e83b2f7086c1e3a91" category="inline-xref-macro-rx"></block></block>
@@ -8590,8 +8568,6 @@
   <block id="99446598b3c4c3edaab96c4b623d7bf2" category="paragraph">Para probarlo, cierre sesión en la interfaz de usuario del elemento y vuelva a iniciarla como usuario en ese grupo.</block>
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">*Información relacionada*</block>
   <block id="3c524ca678d565a8dc0fadfb24ddda45" category="inline-xref-macro">Cree una cuenta de administrador de clúster</block>
-  <block id="a1245e096ef503d7567667afaa906b60" category="paragraph"><block ref="a1245e096ef503d7567667afaa906b60" category="inline-xref-macro-rx"></block></block>
-  <block id="52dc765a830c6c6b29cc239ca9482774" category="paragraph"><block ref="52dc765a830c6c6b29cc239ca9482774" category="inline-xref-macro-rx"></block></block>
   <block id="781446d97e1fa846866bebb79d3b755b" category="summary">Una vez que se replica un volumen, los volúmenes de origen y objetivo deben estar activos. Cuando en un estado activo, los volúmenes se emparejan, los datos se envían del volumen de origen al de destino y los datos están sincronizados.</block>
   <block id="2f7a12218839ccf441ce505e521188df" category="doc">Validar la replicación de volúmenes</block>
   <block id="41d4dde0dc67ea70cf506a6bb5b464ce" category="list-text">En ambos clústeres, seleccione *Protección de datos* &gt; *pares de volúmenes*.</block>
@@ -8881,7 +8857,6 @@
   <block id="94d1207223d97d0a0a9877e887c40d29" category="inline-link-macro">Cambie la contraseña de IPMI predeterminada</block>
   <block id="a88b2ec4dd01d7fd61509f9c9d5bd481" category="list-text">Para los nodos H410C, H610C y H615C, <block ref="1d4aa273a0eca9d7d120f38c4573165c" category="inline-link-macro-rx"></block>.</block>
   <block id="9ef4592bcb5c2379e3e631deeae02163" category="inline-link-macro">Cambiar la contraseña predeterminada de IPM</block>
-  <block id="c406ac81de66b241c8b18e8b786204ce" category="list-text">Para nodos H410S y H610S, <block ref="948675b0a3c0cef9123c5f0ab6b48101" category="inline-link-macro-rx"></block>.</block>
   <block id="5da96725b80167a4658f4e9057a4cb45" category="inline-link-macro">Cambie las credenciales de BMC en el nodo de gestión</block>
   <block id="57137c1e68d7300587dc9d9e4c6d107c" category="list-text"><block ref="5215e9d1d5c62231ce2eff57e0d99e18" category="inline-link-macro-rx"></block>.</block>
   <block id="409517b29e406b86b0f2e96d825034ac" category="paragraph">Credenciales de ESXi</block>
@@ -10110,7 +10085,6 @@
   <block id="53661c1451a20d47537b1d0a00b2d7d0" category="list-text">Para ver los detalles de todas las alertas de la página, haga clic en la columna Details.</block>
   <block id="17597d1694bdaa4d0233e43918f0bd33" category="paragraph">Una vez que el sistema resuelve una alerta, toda la información sobre la alerta, incluida la fecha en la que se solucionó, se traslada al área Resolved.</block>
   <block id="dc679f38ed2d35dde42b872d737e46db" category="list-text"><block ref="dc679f38ed2d35dde42b872d737e46db" category="inline-xref-macro-rx"></block></block>
-  <block id="8e078db9f02bd406ca631ba2825dd629" category="list-text"><block ref="8e078db9f02bd406ca631ba2825dd629" category="inline-link-macro-rx"></block></block>
   <block id="8eb35c1905cca530b401398a5ee416aa" category="summary">Si no tiene credenciales de administrador del clúster para un clúster remoto, puede emparejar un volumen con otro volumen en un clúster remoto mediante una clave de emparejamiento.</block>
   <block id="231ccc2cdb435752eef37ee5636ac731" category="list-text">Compruebe que haya un volumen en el clúster remoto que utilice para el emparejamiento.</block>
   <block id="d4278823018eb926f050bea0f59f35ca" category="list-text">Haga clic en el icono *acciones* del volumen que desea emparejar.</block>
@@ -10161,9 +10135,7 @@
   <block id="6a5872631c0cf8f8396f83702a5d1b69" category="inline-link">Reemplazar unidades para nodos de almacenamiento serie H600S</block>
   <block id="958c4b86b435f9f588d64cfab02d9a5d" category="list-text"><block ref="958c4b86b435f9f588d64cfab02d9a5d" category="inline-link-rx"></block></block>
   <block id="4ca5671d2f966d4171da24a705d584cf" category="inline-link-macro">Información de hardware H410S y H610S</block>
-  <block id="24ed1c3d2fd5e7a8e8358705c065eee8" category="list-text"><block ref="24ed1c3d2fd5e7a8e8358705c065eee8" category="inline-link-macro-rx"></block></block>
   <block id="6dfd3b2bcec1f3e7fda0b3505e773fa3" category="inline-link-macro">Información sobre hardware de SF-Series</block>
-  <block id="f938a270ef0dee1673d32b1160f2268d" category="list-text"><block ref="f938a270ef0dee1673d32b1160f2268d" category="inline-link-macro-rx"></block></block>
   <block id="4cf5f18e32ae2a3ab791ffc90b0c71b8" category="summary">Debe supervisar el sistema para realizar diagnósticos y obtener información acerca de las tendencias y los Estados de rendimiento de varios operaciones del sistema. Puede que deba sustituir nodos o SSD por motivos de mantenimiento.</block>
   <block id="8cec4b9b9cebbbcffea18b0d7ecce9d4" category="inline-link-macro">Ver información acerca de los eventos del sistema</block>
   <block id="5d275af03802c344792a6765e974ac03" category="list-text"><block ref="5d275af03802c344792a6765e974ac03" category="inline-link-macro-rx"></block></block>
@@ -10800,7 +10772,6 @@
   <block id="250f00e8767222db89298f946f97e517" category="paragraph">La interfaz de software se creó sobre la API de Element.</block>
   <block id="9767ec22fca2804b6bdbd87e39200375" category="list-text"><block ref="9767ec22fca2804b6bdbd87e39200375" category="inline-link-macro-rx"></block></block>
   <block id="d3daac97e8c69781f73bcc5512cb5c2a" category="inline-link-macro">Actualice los componentes del sistema de almacenamiento</block>
-  <block id="ecb20e3ca51440136d042527b042c2ee" category="list-text"><block ref="ecb20e3ca51440136d042527b042c2ee" category="inline-link-macro-rx"></block></block>
   <block id="6038a645307a76874f058ffe322fc4f6" category="list-text"><block ref="6038a645307a76874f058ffe322fc4f6" category="inline-link-macro-rx"></block></block>
   <block id="f22f8c5563a22eebf5e40a4e6776b17e" category="list-text"><block ref="f22f8c5563a22eebf5e40a4e6776b17e" category="inline-link-macro-rx"></block></block>
   <block id="78b427ddfeadab92101bce0e26d2af15" category="list-text"><block ref="78b427ddfeadab92101bce0e26d2af15" category="inline-link-macro-rx"></block></block>
@@ -11950,4 +11921,27 @@
   <block id="61ad36f15eb6ab7927cdc50f6e089a98" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block> _NEW_</block>
   <block id="0e051271241f0648ba45a8ad135d030c" category="list-text"><block ref="0e051271241f0648ba45a8ad135d030c" category="inline-link-rx"></block></block>
   <block id="62bad8a6f2407b7cf1f98abe9ada3dae" category="admonition">Después de usar la API, debe reiniciar el nodo de gestión.</block>
+  <block id="f2803c84f404a81af41a23542245cebc" category="paragraph"><block ref="f2803c84f404a81af41a23542245cebc" category="inline-link-macro-rx"></block></block>
+  <block id="64d9e8809f33aaca7cda9d121b2b2e83" category="paragraph"><block ref="64d9e8809f33aaca7cda9d121b2b2e83" category="inline-link-macro-rx"></block></block>
+  <block id="19f47154ff3c9f0fcf8147cd2369d029" category="paragraph"><block ref="19f47154ff3c9f0fcf8147cd2369d029" category="inline-link-macro-rx"></block></block>
+  <block id="0e9706d9713372bb21a3b9f917953dbc" category="paragraph">Lista JSON de <block ref="5820461afa2bd9ee99130d755eddf7ff" category="inline-link-macro-rx"></block> objetos.</block>
+  <block id="1e924e133c06d37b8d10cb78b719f4ce" category="paragraph"><block ref="1e924e133c06d37b8d10cb78b719f4ce" category="inline-link-macro-rx"></block></block>
+  <block id="0aa7fde71cfb5413015e45fa45075fd0" category="admonition">Para ver el estado actual del cifrado en reposo y/o el cifrado de software en reposo en el clúster, use el <block ref="d274ae55f8f22fd98ab9b057453f6128" category="inline-link-macro-rx"></block>. Puede utilizar el<block ref="2132cae62c1d77dfa3dd7c3447c77cf5" prefix=" " category="inline-code"></block> <block ref="bd5bc3e1755ad5880958398f3551c67d" category="inline-link-macro-rx"></block>.</block>
+  <block id="08e683c68442f500782b3d5486530a71" category="admonition">Este método no habilita el cifrado de software en reposo. Esto sólo se puede hacer usando <block ref="d203a09ebf9d1da1010b557da816049a" category="inline-link-macro-rx"></block> con<block ref="8a6d1a92159080729def71f4e50f41d0" prefix=" " category="inline-code"></block> establezca en<block ref="b326b5062b2f0e69046810717534cb09" prefix=" " category="inline-code"></block>.</block>
+  <block id="ddaca3871ebb2bf3f0b1cb11f4c6a4ea" category="paragraph"><block ref="ddaca3871ebb2bf3f0b1cb11f4c6a4ea" category="inline-link-macro-rx"></block></block>
+  <block id="954e95e0241c7b3a74f9c6a194795355" category="admonition">Para ver el estado actual del cifrado en reposo y/o el cifrado de software en reposo en el clúster, use el <block ref="51ab6f075e7b9b2d3276f61c0b11b186" category="inline-link-macro-rx"></block>. Puede utilizar el<block ref="2132cae62c1d77dfa3dd7c3447c77cf5" prefix=" " category="inline-code"></block> <block ref="e5fb14b37e1fdc8a835f7ed4e33c1c63" category="inline-link-macro-rx"></block>.</block>
+  <block id="342c0e2d839abf3902ec2e2ba9a391e5" category="paragraph"><block ref="19f47154ff3c9f0fcf8147cd2369d029" category="inline-link-macro-rx"></block> cabina</block>
+  <block id="f1e1734ea4e6ef5a6bd73e15cffa128a" category="paragraph"><block ref="f2803c84f404a81af41a23542245cebc" category="inline-link-macro-rx"></block> cabina</block>
+  <block id="2896bd9b7f534d42f996fc5910e2ad40" category="paragraph"><block ref="ddaca3871ebb2bf3f0b1cb11f4c6a4ea" category="inline-link-macro-rx"></block> cabina</block>
+  <block id="89291581fd8be1d9caf505e74fd0773e" category="list-text"><block ref="89291581fd8be1d9caf505e74fd0773e" category="inline-link-macro-rx"></block></block>
+  <block id="a339aaae279fb4166b4ea4a6575b8e54" category="list-text"><block ref="a339aaae279fb4166b4ea4a6575b8e54" category="inline-link-macro-rx"></block></block>
+  <block id="bc392d110b36a51cd536073024a5f532" category="list-text">Para nodos H410S y H610S, <block ref="1ed294287e7a2515c794c51e2936136d" category="inline-link-macro-rx"></block>.</block>
+  <block id="dcf69453f88a169ec3e3e6fae67d435e" category="list-text"><block ref="dcf69453f88a169ec3e3e6fae67d435e" category="inline-link-macro-rx"></block></block>
+  <block id="07e6fbc1d94748a67b7280d5169aff78" category="paragraph">Para ver el estado actual del cifrado en reposo y/o el cifrado de software en reposo en el clúster, use el <block ref="4ba6dd2d59030fb9ee4b6523df69086c" category="inline-link-macro-rx"></block> método. Puede utilizar el <block ref="6a83460526e11b52e54477d344b49b7d" category="inline-link-macro-rx"></block> método para obtener información que utiliza el clúster para cifrar datos en reposo.</block>
+  <block id="521e8e8587c418fa92f54811f8954007" category="list-text"><block ref="521e8e8587c418fa92f54811f8954007" category="inline-link-macro-rx"></block></block>
+  <block id="ecec8bb5649856a856a861a75e4daa84" category="list-text"><block ref="ecec8bb5649856a856a861a75e4daa84" category="inline-link-macro-rx"></block></block>
+  <block id="24786d5c66286f468be80b26d8f4126b" category="list-text"><block ref="24786d5c66286f468be80b26d8f4126b" category="inline-link-rx"></block></block>
+  <block id="08bedb070b17681cfbba927034b3d77e" category="paragraph">Los servicios de gestión proporcionan una funcionalidad de gestión centralizada y ampliada para el almacenamiento all-flash de SolidFire. Estos servicios incluyen <block ref="c33469c22ade8b91ea5a2e4b6de19fdf" category="inline-link-macro-rx"></block>, Telemetría del sistema de Active IQ, registro y actualizaciones de servicio, así como el servicio QoSSIOC para el plugin de Element para vCenter.</block>
+  <block id="afb54c94a5e9aef322532eabe176c2d4" category="admonition">Más información acerca de <block ref="8a1a0a32384afdd6d93db2e7c4f512ad" category="inline-link-macro-rx"></block>.</block>
+  <block id="4fff24ec2d2b11f3a503f7b0abacb1cb" category="list-text"><block ref="4fff24ec2d2b11f3a503f7b0abacb1cb" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -30,7 +30,7 @@ WARNING: En los clústeres de almacenamiento all-flash de SolidFire, el cifrado 
 
 == Comprobar el cifrado en estado de reposo
 
-Para ver el estado actual del cifrado en reposo y/o el cifrado de software en reposo en el clúster, use el link:../api/reference_element_api_getclusterinfo.html["GetClusterInfo"^] método. Puede utilizar el link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html["GetSoftwareEncryptionAtRestInfo"^] método para obtener información que utiliza el clúster para cifrar datos en reposo.
+Para ver el estado actual del cifrado en reposo y/o el cifrado de software en reposo en el clúster, use el link:../api/reference_element_api_getclusterinfo.html["GetClusterInfo"] método. Puede utilizar el link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html["GetSoftwareEncryptionAtRestInfo"] método para obtener información que utiliza el clúster para cifrar datos en reposo.
 
 
 NOTE: La consola de interfaz de usuario del software Element en `https://<MVIP>/` actualmente, solo muestra el cifrado en estado de reposo para el cifrado basado en hardware.
