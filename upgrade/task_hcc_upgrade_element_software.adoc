@@ -596,7 +596,7 @@ Puede utilizar el conjunto de herramientas HealthTools para actualizar el softwa
 
 NOTE: Es necesario contar con la versión más reciente de HealthTools para actualizar el software de almacenamiento Element.
 
-. Descargue esto https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["Archivo JSON"^] (https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740)[] En el sitio de soporte de NetApp de un equipo que no es el nodo de gestión y cambie su nombre `metadata.json`.
+. Descargue esto https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["Archivo JSON"^]  En el sitio de soporte de NetApp de un equipo que no es el nodo de gestión y cambie su nombre `metadata.json`.
 . Copie el archivo ISO en el nodo de gestión en una ubicación accesible, como `/tmp`.
 +
 
