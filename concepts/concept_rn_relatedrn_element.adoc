@@ -20,14 +20,14 @@ NOTE: Se le pedirá que inicie sesión con sus credenciales de soporte de NetApp
 
 == Software NetApp Element
 
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2881056["Notas de la versión del software NetApp Element 12.3.2"^] _NEW_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2881056["Notas de la versión del software NetApp Element 12.3.2"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2878089["Notas de la versión del software NetApp Element 12.3.1"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2876498["Notas de la versión del software NetApp Element 12.3"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2877210["Notas de la versión del software NetApp Element 12.2.1"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2873789["Notas de la versión del software NetApp Element 12.2"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2877208["Notas de la versión del software NetApp Element 12.0.1"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2865022["Notas de la versión del software NetApp Element 12.0"^]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2880259["Notas de la versión del software NetApp Element 11.8.2"^] _NEW_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2880259["Notas de la versión del software NetApp Element 11.8.2"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2877206["Notas de la versión del software NetApp Element 11.8.1"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2864256["Notas de la versión del software NetApp Element 11.8"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2861225["Notas de la versión del software NetApp Element 11.7"^]
@@ -46,7 +46,8 @@ NOTE: Se le pedirá que inicie sesión con sus credenciales de soporte de NetApp
 
 == Plugin de NetApp Element para vCenter Server
 
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2885734["Notas de la versión del plugin de vCenter 5.1"^] _NEW_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2886272["Notas de la versión del plugin de vCenter 5,2"^] _NEW_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2885734["Notas de la versión del plugin de vCenter 5.1"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2884992["Notas de la versión del plugin de vCenter 5.0"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2884458["Notas de la versión del plugin de vCenter 4.10"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2881904["Notas de la versión del plugin de vCenter 4.9"^]

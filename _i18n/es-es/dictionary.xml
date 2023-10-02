@@ -1853,9 +1853,7 @@
   <block id="9b572df8237d34b7c32142ac15f1325f" category="list-text">En vSphere Web Client, busque las siguientes tareas completadas en el monitor de tareas para garantizar que se haya completado la instalación:<block ref="ec6215521ab965944e6a3eeb6b9ab6f1" prefix=" " category="inline-code"></block> y..<block ref="0f5814fb45e88fb5a7d984788675e425" prefix=" " category="inline-code"></block>.</block>
   <block id="d471727ba1fb423986701d5307906d08" category="list-text">Verifique que los puntos de extensión del plugin aparezcan en la pestaña *Shortcuts* de vSphere Web Client y en el panel lateral.</block>
   <block id="1993643c12bb4ee547f04d8d85f8c4bf" category="list-text">A partir del plugin de Element para vCenter Server 5.0, se muestra el punto de extensión NetApp Element Remote Plugin:</block>
-  <block id="3c4718429a8a2991d56e6e719c1942df" category="image-alt">Muestra los puntos de extensión del plugin después de una actualización o instalación correcta para el plugin de Element versión 5.10 o una versión posterior</block>
   <block id="1c63b3cd9a6d3bdf8b9b31aca68672d7" category="list-text">En el caso del plugin de Element para vCenter Server 4.10 o una versión anterior, los puntos de extensión NetApp Element Configuration y Management aparecen:</block>
-  <block id="85406fb94df2ff523b7477f229b1c9c8" category="image-alt">Muestra los puntos de extensión del plugin después de una actualización o instalación correcta para el plugin de Element 4.10 o una versión anterior</block>
   <block id="a0abd6db969f497b63a29f8fbd1771df" category="inline-link-macro">Plugin de Element para vCenter Server</block>
   <block id="5e98629f8afe2eee1c27355eb45a80e0" category="paragraph">Si los iconos del plugin de vCenter no se ven, consulte <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> documentación sobre solución de problemas del plugin.</block>
   <block id="726e3510e2c172eed6861f3e6d271360" category="paragraph">Después de actualizar al plugin de NetApp Element para vCenter Server 4.8 o una versión posterior con VMware vCenter Server 6.7U1, si los clústeres de almacenamiento no se muestran en la lista o se muestra un error de servidor en las secciones *Clusters* y *Configuración de QoSSIOC* de la configuración de NetApp Element, consulte <block ref="c907b125bbc711015f83b735f4697e97" category="inline-link-macro-rx"></block> documentación sobre la solución de problemas de estos errores.</block>
@@ -2254,7 +2252,6 @@
   <block id="f8baaa336de0b43c94445176248817a5" category="admonition">Se le pedirá que inicie sesión con sus credenciales de soporte de NetApp.</block>
   <block id="3938cfdbe176bad61cedb25bdb572858" category="section-title">Software NetApp Element</block>
   <block id="56570048e2475ec7b64ee91388743714" category="inline-link">Notas de la versión del software NetApp Element 12.3.2</block>
-  <block id="3903fc6a9f0bcbe1f49608f5110cf661" category="list-text"><block ref="9de5606ae9b23ff6651244b85bd5dae8" category="inline-link-rx"></block> _NEW_</block>
   <block id="7199e7988a06a61dd6614783601855bd" category="inline-link">Notas de la versión del software NetApp Element 12.3.1</block>
   <block id="9add94ad0bafb6a0c0977e09efa22b79" category="list-text"><block ref="9add94ad0bafb6a0c0977e09efa22b79" category="inline-link-rx"></block></block>
   <block id="325c4db41bea4b4c5bc841d336b08e32" category="inline-link">Notas de la versión del software NetApp Element 12.3</block>
@@ -2268,7 +2265,6 @@
   <block id="1cace3c036a290ab8ee91dddebd361d0" category="inline-link">Notas de la versión del software NetApp Element 12.0</block>
   <block id="4489a95481ba0e8e951ca2cdc4403b89" category="list-text"><block ref="4489a95481ba0e8e951ca2cdc4403b89" category="inline-link-rx"></block></block>
   <block id="b7fe022e3d13a1a7248fb1583851f437" category="inline-link">Notas de la versión del software NetApp Element 11.8.2</block>
-  <block id="96a6137975cbcfe6dbff95b85cf1b6bf" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block> _NEW_</block>
   <block id="0f0e809fbd346b6319776f0b02355216" category="inline-link">Notas de la versión del software NetApp Element 11.8.1</block>
   <block id="6ae2e484807ab9e500e1e9aa73aa6354" category="list-text"><block ref="6ae2e484807ab9e500e1e9aa73aa6354" category="inline-link-rx"></block></block>
   <block id="c238b8c4c43e1a2c0a7fa4b0128df200" category="inline-link">Notas de la versión del software NetApp Element 11.8</block>
@@ -11873,7 +11869,6 @@
   <block id="f77430f8b3c4f14f1dcd175dca1d54cf" category="paragraph">Debe actualizar al plugin de NetApp Element para vCenter Server 5.0 o una versión posterior para otorgar la capacidad de implementar el plugin con VMware vCenter 7.0 Update 3 sin tener que aplicar una solución alternativa.</block>
   <block id="4af99aa6c1be006a7c064cb06b9464ac" category="cell">Todos los clústeres que ejecutan Element 11.8 y versiones posteriores</block>
   <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">Este procedimiento de actualización cubre los siguientes escenarios de actualización:</block>
-  <block id="3a2bbd221f9a6d667af34b16ef1c1a32" category="list-text">Actualice al plugin de Element para vCenter Server 5.1 o 5.0.</block>
   <block id="609cfd925544c2aaccb703dcb95eed4d" category="admonition">Cuando se actualiza desde el plugin de Element para vCenter Server 4.x a 5.x, los clústeres ya configurados con el plugin se pierden porque no se pueden copiar los datos de una instancia de vCenter en un plugin remoto. Debe volver a añadir los clústeres al plugin remoto. Esta es una actividad que solo debe hacer una vez al actualizar desde un plugin local a un plugin remoto.</block>
   <block id="4edf62fd94cfb84b727afbee52aa8128" category="list-text">La página de registro del plugin de vCenter para el plugin de Element para vCenter Server 5.x:</block>
   <block id="0ac35a688d7a23e1caba58dbbf08c4d7" category="paragraph">La ficha *almacenamiento* muestra los clústeres de almacenamiento que forman parte de la instalación. Si el control de cloud híbrido de NetApp no permite acceder a un clúster, no se mostrará en la página *actualizaciones*. Si los clústeres ejecutan Element 12.0 o una versión posterior, se mostrará la versión actual del paquete de firmware indicado para estos clústeres. Si los nodos de un solo clúster tienen diferentes versiones de firmware en ellos o mientras la actualización progresa, verá *multiple* en la columna *Versión del paquete de firmware actual*. Puede seleccionar *Multiple* para desplazarse a la página *Nodes* para comparar las versiones de firmware. Si todos los clústeres ejecutan versiones de Element anteriores a 12.0, no se mostrará ninguna información sobre los números de versión del bundle de firmware.</block>
@@ -11904,7 +11899,6 @@
   <block id="a6c060b483d31ea611debe971d6648f2" category="paragraph">La <block ref="0e7e722b98bf8cba65c74d44d6ffe2e6" category="inline-link-macro-rx"></block> Quita el certificado SSL y la clave privada instalados actualmente. A continuación, el clúster genera un nuevo certificado autofirmado y una clave privada.</block>
   <block id="b59339c29a0a5c439aaf31d01a32ea3a" category="list-text"><block ref="b59339c29a0a5c439aaf31d01a32ea3a" category="inline-link-macro-rx"></block></block>
   <block id="54db42757b5d75d2f660dc70f35850cf" category="inline-link">Notas de la versión del plugin de vCenter 5.1</block>
-  <block id="61ad36f15eb6ab7927cdc50f6e089a98" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block> _NEW_</block>
   <block id="0e051271241f0648ba45a8ad135d030c" category="list-text"><block ref="0e051271241f0648ba45a8ad135d030c" category="inline-link-rx"></block></block>
   <block id="62bad8a6f2407b7cf1f98abe9ada3dae" category="admonition">Después de usar la API, debe reiniciar el nodo de gestión.</block>
   <block id="f2803c84f404a81af41a23542245cebc" category="paragraph"><block ref="f2803c84f404a81af41a23542245cebc" category="inline-link-macro-rx"></block></block>
@@ -11939,4 +11933,14 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="9de5606ae9b23ff6651244b85bd5dae8" category="list-text"><block ref="9de5606ae9b23ff6651244b85bd5dae8" category="inline-link-rx"></block></block>
+  <block id="5ed2b0be7714cf9bfe94c6d0660549bb" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block></block>
+  <block id="ce397f79b5032c3e327db3efe5a6048a" category="inline-link">Notas de la versión del plugin de vCenter 5,2</block>
+  <block id="4718467fa890cd0dcf159b3d461cedbe" category="list-text"><block ref="6bd87cf3d55c2ead3ab585e965bea4db" category="inline-link-rx"></block> _NEW_</block>
+  <block id="410ecb079e286058eeb2bc6b56d9379c" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block></block>
+  <block id="faf6c38631911f7840c3498b4ec9f746" category="inline-link-macro">Aviso para servicios de gestión 2.24.40 (complemento NetApp Element para VMware vCenter Server 5,2.12)</block>
+  <block id="db3a980db6ffcc2055052c6c4a453020" category="list-text"><block ref="db3a980db6ffcc2055052c6c4a453020" category="inline-link-macro-rx"></block></block>
+  <block id="eea7cb3a63edf642e1f15162351dfce7" category="list-text">Va a actualizar al plugin de Element para vCenter Server 5,2, 5,1 o 5,0.</block>
+  <block id="c9c6a2f6fa07c1f8c580586914c37e79" category="image-alt">Muestra los puntos de extensión del plugin después de una actualización o una instalación correcta del plugin de Element versión 5,1 o posterior</block>
+  <block id="f35f89119a6374d18bd89e0103590c61" category="image-alt">Muestra los puntos de extensión del plugin después de una instalación correcta o una actualización del plugin de Element versión 4,10 o anterior</block>
 </blocks>
