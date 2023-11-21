@@ -34,7 +34,7 @@ Por ejemplo, para añadir un número de puerto personalizado, introduzca <host n
 link:reference_system_manage_ldap_details.md#["Detalles de LDAP"]
 
 +
-image::../media/element_new_ldap_servers.jpg[nuevos servidores ldap de element]
+image::../media/element_new_ldap_servers.jpg[Configuración general para la vista Servidores LDAP]
 
 . Haga clic en *Activar LDAP*.
 . Haga clic en *probar autenticación de usuario* si desea probar el acceso al servidor para un usuario.
@@ -44,7 +44,7 @@ image::../media/element_new_ldap_servers.jpg[nuevos servidores ldap de element]
 +
 .. Haga clic en *Usuario* > *Ver*.
 +
-image::../media/element_new_cluster_admin.jpg[administrador del nuevo clúster de element]
+image::../media/element_new_cluster_admin.jpg[Crear una nueva vista de usuario]
 
 .. Para el nuevo usuario, haga clic en *LDAP* para el tipo de usuario y pegue el grupo que copió en el campo Nombre distintivo.
 .. Seleccione los permisos, normalmente todos los permisos.

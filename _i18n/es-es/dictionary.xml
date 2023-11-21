@@ -59,8 +59,6 @@
   <block id="9c83e144e5481ac6766f4055e566594d" category="floating-title">Obtenga más información</block>
   <block id="a881a0468246e93ae6e2c5bccd78758e" category="inline-link">Plugin de NetApp Element para vCenter Server</block>
   <block id="7cf5cffc3745b8348cdcfb1c3d0d472f" category="list-text"><block ref="7cf5cffc3745b8348cdcfb1c3d0d472f" category="inline-link-rx"></block></block>
-  <block id="631923a687ff82d68973d99b95597b47" category="inline-link">Página SolidFire y Element Resources</block>
-  <block id="238c5b123e3473c57e2925edccb205c2" category="list-text"><block ref="238c5b123e3473c57e2925edccb205c2" category="inline-link-rx"></block></block>
   <block id="82a86692ca7911d76ba111e636c80fd8" category="summary">Puede añadir, quitar, cambiar y habilitar y deshabilitar el modo de mantenimiento para clústeres de almacenamiento mediante la interfaz de usuario de control híbrido de NetApp.</block>
   <block id="ea7fec525051b2aa8cb978a109280dcd" category="doc">Añada y gestione clústeres de almacenamiento utilizando Hybrid Cloud Control de NetApp</block>
   <block id="522a96c5448a91bfa521ab06d873c2f4" category="inline-link-macro">clúster de almacenamiento fiable</block>
@@ -670,8 +668,6 @@
   <block id="0374b3f6d89873148fabfec965f0a85c" category="list-text"><block ref="917c64f79628a9b16c9590709727170a" category="inline-link-rx"></block>: Este laboratorio presenta conceptos de escalado horizontal sin limitaciones, rendimiento garantizado de la carga de trabajo y automatización de la infraestructura de almacenamiento que se aplican a los sistemas de almacenamiento que ejecutan el software Element.</block>
   <block id="94f8a49e22a4517b4cd55d1fa39ec58e" category="inline-link-macro">Pruebe las funciones de almacenamiento usando Element Demo Node</block>
   <block id="a66c6b29dce890bbcc0d228bf1bb7510" category="list-text"><block ref="619476f87ba30914a5fbd5ba47d588c3" category="inline-link-macro-rx"></block>: El nodo de demostración de Element es una versión de máquina virtual VMware del software Element, que proporciona una forma fácil de mostrar muchas de las características de almacenamiento clave de los productos NetApp HCI y SolidFire.</block>
-  <block id="b0cda36836b6d8e27c36c8d9d6b48f3a" category="inline-link">Página de recursos de almacenamiento all-flash de SolidFire</block>
-  <block id="a980426853b5ccc1de52aeb0b0ae0463" category="list-text"><block ref="a980426853b5ccc1de52aeb0b0ae0463" category="inline-link-rx"></block></block>
   <block id="3432017bf3450950cff9ebeb57b007b7" category="summary">El nodo de demostración de Element es una versión de máquina virtual de VMware del software Element, que proporciona una forma sencilla de mostrar muchas de las funciones de almacenamiento clave de los productos NetApp HCI y SolidFire.</block>
   <block id="c099da1e7198d2f1407d45eef0d02a48" category="inline-link">Nodo de demostración de Element</block>
   <block id="fae634e54f6a24eca87a92f1d78df928" category="paragraph"><block ref="e1baf480e2c2d0517c80b4748e50de89" category="inline-link-rx"></block> Es una versión de máquina virtual (VM) de VMware del software Element, que permite mostrar fácilmente muchas de las funciones de almacenamiento clave de los productos NetApp HCI y SolidFire. El nodo de demostración permite a los desarrolladores codificar la API de Element sin necesidad de contar con hardware físico. Se presenta como un archivo OVA para facilitar la puesta en marcha de VMware.</block>
@@ -2601,8 +2597,6 @@
   <block id="b6bc13e979e5c7e1ea02ebf7ba32f74c" category="paragraph">El estado del modo de mantenimiento solicitado del nodo. Los posibles valores son los siguientes:</block>
   <block id="768d396ff6865c309cb5b887f53b62ee" category="paragraph">Lista de ID de nodos de almacenamiento que se van a quitar del modo de mantenimiento.</block>
   <block id="f52fd865d827234a5d7f2d167a191468" category="list-text">Inesperado: Se encontró que el nodo estaba sin conexión, pero estaba en el modo deshabilitado.</block>
-  <block id="1c1519037df87ff4dd08fe6e757ff03f" category="inline-link">Página de recursos de SolidFire de NetApp</block>
-  <block id="abc0c04174a58217258765895984ed4e" category="list-text"><block ref="abc0c04174a58217258765895984ed4e" category="inline-link-rx"></block></block>
   <block id="48c7c41b72e1d678923ce3571aa65b2d" category="list-title">Paso</block>
   <block id="d478021fe72aef0c237ac72d79f71ceb" category="paragraph">Las solicitudes de este método son similares al ejemplo siguiente:</block>
   <block id="6c29922ea921f9493eb423f9a77c8e9d" category="paragraph">Este método devuelve una respuesta similar al siguiente ejemplo:</block>
@@ -11942,4 +11936,8 @@
   <block id="da610458ca77f95bd33552584272f2c8" category="sidebar">Actualice la versión Element 12,3.x de su sistema de almacenamiento all-flash NetApp SolidFire</block>
   <block id="c04c3f3380a29245247f6e8a6c77a880" category="paragraph">Es posible que tenga que permitir a los siguientes puertos TCP y UDP atravesar el firewall perimetral del centro de datos, de manera que pueda gestionar el sistema de forma remota y permitir a los clientes que estén fuera del centro de datos conectarse a los recursos. En función de la manera en la que se use el sistema, es posible que algunos puertos no sean necesarios.</block>
   <block id="331d6d490990c63b2cee0dc04fe2589b" category="paragraph">Todos los puertos son TCP a menos que se especifique lo contrario, y todos los puertos TCP deben admitir la comunicación de apretón de manos tripartito entre el servidor de soporte de NetApp, el nodo de gestión y los nodos que ejecutan el software Element. Por ejemplo, el host de un origen del nodo de gestión se comunica con el host en un destino de MVIP del clúster de almacenamiento a través del puerto TCP 443, y el host de destino se vuelve a comunicar al host de origen a través de cualquier puerto.</block>
+  <block id="5858de35bb153f56bdb4f3fbd003b515" category="list-text"><block ref="5858de35bb153f56bdb4f3fbd003b515" category="inline-link-rx"></block></block>
+  <block id="e6344f017ebc6c23de294cbd0c5b3ec0" category="image-alt">Configuración general para la vista Servidores LDAP</block>
+  <block id="bf0a897972fda4244e862fc7b7474446" category="image-alt">Crear una nueva vista de usuario</block>
+  <block id="f4029885f6f8ac69ff0c61a3a67af4dc" category="sidebar">Un sistema de almacenamiento all-flash SolidFire consta de componentes de hardware como unidades y nodos que se combinan en un pool de recursos de almacenamiento. Mediante la interfaz de Element, la API u otras herramientas de gestión, puede gestionar estos clústeres de recursos de almacenamiento con el software NetApp Element. Este sitio incluye documentación para el software Element 12,3.x.</block>
 </blocks>
